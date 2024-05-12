@@ -4,11 +4,242 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.0.9/css/boxicons.min.css">
+    <title>Portafolio WebSite | Edgar</title>
 </head>
 
 <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Edgar</a>
+            </div>
 
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Incio</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Información Personal</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Habilidades técnicas</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Proyectos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hola,<br>Soy <span class="home__title-color">Edgar</span><br>Estudiante
+                    <br> Ingeniería Software
+                </h1>
+
+                <a href="cv/Curriculum.pdf" class="button" download>Descargar CV</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/edgar-josue-gallegos-meza-9815b7300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://x.com/Josue_GM_?t=7hrcliItIYGMYTFlFCfQdQ&s=09" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com/edgarjosue.gallegosmeza/" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-facebook'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="img/foto1.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Información</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="img/foto2.jpg">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">Hola! soy Edgar</h2>
+                    <p class="about__text">
+                        Soy un estudiante de Ingeniería de Software, me gusta aprender cosas nuevas y siempre estoy
+                        dispuesto a ayudar a los demás. Me encanta programar y siempre estoy buscando mejorar mis
+                        habilidades.
+                    </p>
+                    <br>
+                    <h2 class="about__subtitle">Datos Personales</h2>
+                    <p class="about__text">
+                        <strong>Nombre:</strong> Edgar Josue Gallegos Meza <br>
+                        <strong>Fecha de Nacimiento:</strong> 16 de Octubre de 2001 <br>
+                        <strong>Nacionalidad:</strong> Ecuatoriana <br>
+                        <strong>Idiomas:</strong> Español (Nativo), Inglés B1 <br>
+                        <strong>Residencia:</strong> Quito, Ecuador <br>
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Habilidades</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Habilidades Técnicas</h2>
+                    <p class="skills__text">
+                        Como estudiante de quinto nivel de Ingeniería de Software, poseo una sólida base en programación
+                        orientada a objetos con
+                        lenguajes como Java. Tengo experiencia básica en el desarrollo de aplicaciones web utilizando
+                        HTML, CSS y JavaScript,
+                        así como en el uso de framework como React.js. También estoy familiarizado con las
+                        bases de datos SQL y
+                        NoSQL, y tengo conocimientos de control de versiones con Git. Además, estoy aprendiendo sobre
+                        pruebas de software,
+                        integración y despliegue continuo.
+                    </p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-c-plus-plus skills__icon'></i>
+                            <span class="skills__name">C/C++</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-java skills__icon'></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="img/work1.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Proyectos - Certificados</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="img/project1.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="img/project2.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="img/certifi1.png" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contacto</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="mailto:ejgallegos@espe.edu.ec" class="contact__form">
+                    <input type="text" placeholder="Nombre" class="contact__input" required>
+                    <input type="mail" placeholder="Email" class="contact__input" required>
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea>
+                    <input type="submit" value="Enviar" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Edgar</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/edgarjosue.gallegosmeza/" target="_blank" class="footer__icon"><i
+                    class='bx bxl-facebook'></i> </a>
+            <a href="https://www.instagram.com/edgar_josue_g.m?igsh=NDdvdHpqOHRpOG9h" target="_blank"
+                class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/Josue_GM_?t=7hrcliItIYGMYTFlFCfQdQ&s=09" target="_blank" class="footer__icon"><i
+                    class='bx bxl-twitter'></i></a>
+        </div>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
